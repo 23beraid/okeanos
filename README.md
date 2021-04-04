@@ -61,7 +61,7 @@ MINING: A player with the Miner's pick can turn a Copper into a Silver or Silver
 ALCHEMY: A player with Alchemist's Beaker can convert any mineral into any other every two(2)hours. 
 COMBAT: A player with Warrior's Helm can attack another player every two(2) hours provided that player does not have Mage's Robe. An attack will be succesful 50% of the time and if successful will result in theft of one random artifact or mineral. 
 
-Players can add items to the MARKETPLACE for a set price. Other players will be able to purchase those items for currency. 
+Players can add items to the MARKETPLACE for a set price. Other players will be able to purchase those items for currency. Players can also trade items. 
 
 end of the rules. explore and have fun. 
 
