@@ -8,7 +8,7 @@ Roles:
   Diver: Can access the Underwater Trench. Pretty self-explanatory.
   Radioman: Can access the Ports. He navigates this heavily-trafficked area by communicating with other vessels.
  
- Players pick a role at the beginning of the game. Then they go exploring and find stuff. They can trade directly with other players to collect all of the stuff.
+ Players pick a role at the beginning of the game. Then they go exploring and find stuff. What stuff? Who knows. It will be a surprise. They can trade directly with other players to collect all of the stuff.
  Once they do, they get a reward. End of rules. 
   
   
