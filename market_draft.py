@@ -16,6 +16,7 @@ mPrices = {}
 
 def buy_item():
     print("Work in progress")
+    #create purchase function
     
 def sell_item():
     i = input("Which item would you like to sell? Type here: ")
@@ -36,6 +37,7 @@ def sell_item():
         sell_item()
     else:
         enter_price(i)
+    #exchange currency
     
 def enter_price(i):
     j = input("Enter the price you would like to put it on the market as, in units of copper: ")
@@ -53,7 +55,7 @@ def display_items():
             txt += i + ": "
             txt += mPrices[i] + " copper\n"
     else:
-        txt = "Unfortunately, the inventory is empty. Check for notifications when more items are added!"
+        txt = "Unfortunately, the market inventory is empty. Check for notifications when more items are added!"
     print(txt)
     
 def main_screen():
