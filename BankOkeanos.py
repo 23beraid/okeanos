@@ -6,9 +6,9 @@ def Convert1AgTo2Cu():
 		for x in range (0,2):
 			Inventory.append("Copper")
 			x+=1
-		print("Your Silver has successfuly been converted into 2 Copper!")
+		return "Your Silver has successfuly been converted into 2 Copper!"
 	else:
-		print("You don't have any Silver!")
+		return "You don't have any Silver!"
 def Convert1AuTo3Cu():
 	if "Gold" in Inventory:
 		Inventory.remove("Gold")
@@ -16,9 +16,9 @@ def Convert1AuTo3Cu():
 		for x in range (0,3):
 			Inventory.append("Copper")
 			x+=1
-		print("Your Gold has successfuly been converted into 3 Copper!")
+		return "Your Gold has successfuly been converted into 3 Copper!"
 	else:
-		print("You don't have any Gold!")	
+		return "You don't have any Gold!"	
 #Convert1AgTo2Cu()
 #Convert1AuTo3Cu()
 
