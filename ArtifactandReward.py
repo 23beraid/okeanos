@@ -9,10 +9,10 @@ def adventureReward():
 	randomran = random.choice(RanList)
 	Mineral_list = random.choice(Mineral_list)
 	Artifact_list = random.choice(Artifact_list)
-	if ramdomran == 9:
-		return Mineral_List
-	elif ramdomran == 10:
-		return Mineral_List
+	if randomran == 9:
+		return Mineral_list
+	elif randomran == 10:
+		return Mineral_list
 	else:
-		return Artifact_List
-
+		return Artifact_list
+#adventureReward()
