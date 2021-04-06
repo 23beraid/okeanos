@@ -29,7 +29,7 @@ def adventureReward():
 		return(random.choice(Mineral_list))
 	if ramdomran == 9:
 		return "You got", Mineral_List+"!"
-	if ramdomran == 10:
+	elif ramdomran == 10:
 		return "You got", Mineral_List+"!"
 	else:
 		return "You got", Artifact_List+"!"
