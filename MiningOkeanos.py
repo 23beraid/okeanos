@@ -1,5 +1,5 @@
-Inventory = ["Miner's Pick", "Copper", "Silver", "Gold"]
-def ConvertCuToAg():
+#Inventory = ["Miner's Pick", "Copper", "Silver", "Gold"]
+def ConvertCuToAg(Inventory):
 	if "Copper" in Inventory:
 		if "Miner's Pick" in Inventory:
 			Inventory.remove("Copper")
@@ -9,7 +9,7 @@ def ConvertCuToAg():
 			return "You don't have the Miner's Pick!"
 	else:
 		return "You don't have any Copper!"
-def ConvertAgToAu():
+def ConvertAgToAu(Inventory):
 	if "Silver" in Inventory:
 		if "Miner's Pick" in Inventory:
 			Inventory.remove("Silver")
