@@ -14,7 +14,6 @@ artifacts = ["Air Scepter", "Earth Scepter", "Fire Scepter", "Water Scepter", "A
 minerals = ["Ruby", "Emerald", "Aquamarine", "Topaz", "Diamond", "Amethyst"]
 tools = ["Adventurer's Crown", "Warrior's Helm", "Miner's Pick", "Alchemist's Beaker", "Mage's Robe"]
 mPrices = {}
-goms = 0
 
 def buy_item():
     print("Work in progress")
