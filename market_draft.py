@@ -48,6 +48,7 @@ def in_enter_price():
     #j = input("Enter the price you would like to put it on the market as, in units of copper: ")
     
 def enter_price(i,j):
+    #db("?") = len(mPrices[i])
     if j.isdigit():
         if i in mPrices:
             mPrices[i].append(int(j))
@@ -70,24 +71,21 @@ def display_items():
     print(txt)
     
 def main_screen():
-    global goms
-    a = input("This is the marketplace main screen.\n\nTo see items and prices, type 'inventory'. To purchase an item from the market, type 'buy'. To trade an item to the market, type 'sell'.\n\nType here: ")
+    #a = input("This is the marketplace main screen.\n\nTo see items and prices, type 'inventory'. To purchase an item from the market, type 'buy'. To trade an item to the market, type 'sell'. To leave the market, type 'exit'.\n\nType here: ")
     if a.lower()=="inventory":
         display_items()
+        main_screen()
     elif a.lower()=="buy":
         buy_item()
+        main_screen()
     elif a.lower()=="sell":
         sell_item()
+        main_screen()
+    elif a.lower()=="exit":
+        pass
     else:
         print("Not a valid command. Try again.")
         main_screen()
-    if goms==0:
-        b = input("Would you like to return to the main screen? Type 'yes' here if so: ")
-        if b.lower()=="yes":
-            goms = 0
-            main_screen()
-        else:
-            goms = 1
 
 def go():
     main_screen()
