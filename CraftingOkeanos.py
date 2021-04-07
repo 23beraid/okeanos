@@ -2,7 +2,7 @@ import random
 #Adventurescrown: 1 Ruby, 1 Aquamarine, 1 Amythyst
 #Magesrobe: 1 Emerald, 1 Diamond, 1 Topaz
 #CraftWarriorshelm: 1 Amythyst, 1 Emerald, 1 Ruby
-Inventory=["Ruby","Emerald", "Aquamarine", "Topaz","Diamond","Amythyst"]
+Inventory=["Ruby","Emerald", "Aquamarine", "Topaz","Diamond","Amethyst"]
 UI=[]
 CI=[]
 def UniqueGen():
@@ -17,7 +17,7 @@ def CraftAdventurerscrown():
 		for x in UI:
 			if x=="Aquamarine":
 				CI.append(x)
-			elif x=="Amythyst":
+			elif x=="Amethyst":
 				CI.append(x)
 		if len(CI)<3:
 			return "You lack the necessary minerals"
@@ -51,8 +51,8 @@ def CraftMagesrobe():
 		return "You lack an Emerald"
 def CraftWarriorshelm():
 	UniqueGen()
-	if "Amythyst" in Inventory:
-		CI.append("Amythyst")
+	if "Amethyst" in Inventory:
+		CI.append("Amethyst")
 		i=0
 		for x in UI:
 			if x=="Emerald":
@@ -68,7 +68,7 @@ def CraftWarriorshelm():
 			Inventory.append("Warriors helm")
 			CI.clear()
 	else:
-		return "You lack an Amythyst"
+		return "You lack an Amethyst"
 #CraftAdventurerscrown()
 #CraftMagesrobe()
 #CraftWarriorshelm()
