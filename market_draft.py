@@ -22,7 +22,10 @@ def buy_item():
     
 def in_sell_item():
     #i = input("Which item would you like to sell? Type here: ")
-    sell_item(i)
+    if i.lower()=="exit":
+        pass
+    else:
+        sell_item(i)
     
 def sell_item(i):
     if (" " in i):
@@ -71,7 +74,7 @@ def display_items():
     print(txt)
     
 def main_screen():
-    #a = input("This is the marketplace main screen.\n\nTo see items and prices, type 'inventory'. To purchase an item from the market, type 'buy'. To trade an item to the market, type 'sell'. To leave the market, type 'exit'.\n\nType here: ")
+    a = input("This is the marketplace main screen.\n\nTo see items and prices, type 'inventory'. To purchase an item from the market, type 'buy'. To trade an item to the market, type 'sell'. To leave the market, type 'exit'. Also, to cancel any command at any time, type 'cancel'.\n\nType here: ")
     if a.lower()=="inventory":
         display_items()
         main_screen()
