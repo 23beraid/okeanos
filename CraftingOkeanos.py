@@ -3,7 +3,7 @@
 #CraftWarriorshelm: 1 Amethyst, 1 Emerald, 1 Ruby
 #Alchemistsbeaker: 1 Topaz, 1 Aquamarine, 1 Diamond
 #Minerspick: 1 Diamond, 1 Emerald, 1 Ruby
-Inventory=["Ruby", "Emerald", "Aquamarine", "Topaz", "Diamond", "Amethyst"]
+inventory=db['inv'+str(message.author.id)]
 UI=[]
 CI=[]
 def UniqueGen(UI):
