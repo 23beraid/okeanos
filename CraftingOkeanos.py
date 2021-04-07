@@ -1,8 +1,9 @@
-import random
-#Adventurescrown: 1 Ruby, 1 Aquamarine, 1 Amythyst
+#Adventurescrown: 1 Ruby, 1 Aquamarine, 1 Amethyst
 #Magesrobe: 1 Emerald, 1 Diamond, 1 Topaz
-#CraftWarriorshelm: 1 Amythyst, 1 Emerald, 1 Ruby
-Inventory=["Ruby","Emerald", "Aquamarine", "Topaz","Diamond","Amethyst"]
+#CraftWarriorshelm: 1 Amethyst, 1 Emerald, 1 Ruby
+#Alchemistsbeaker: 1 Topaz, 1 Aquamarine, 1 Diamond
+#Minerspick: 1 Diamond, 1 Emerald, 1 Ruby
+Inventory=["Ruby", "Emerald", "Aquamarine", "Topaz", "Diamond", "Amethyst"]
 UI=[]
 CI=[]
 def UniqueGen():
@@ -69,8 +70,44 @@ def CraftWarriorshelm():
 			CI.clear()
 	else:
 		return "You lack an Amethyst"
+def CraftAlchemistsbeaker():
+	UniqueGen()
+	for x in UI:
+		if x=="Topaz":
+			CI.append(x)
+		elif x=="Aquamarine":
+			CI.append(x)
+		elif x=="Diamond":
+			CI.append(x)
+	if len(CI)<3:
+		return "You lack the necessary minerals"
+	else:
+		for x in CI:
+			Inventory.remove(x)
+		return "You have sucessfuly crafted an Alchemists Beaker"
+		Inventory.append("Alchemists Beaker")
+		CI.clear()
+def CraftMinerspick():
+	UniqueGen()
+	for x in UI:
+		if x=="Diamond":
+			CI.append(x)
+		elif x=="Emerald":
+			CI.append(x)
+		elif x=="Ruby":
+			CI.append(x)
+	if len(CI)<3:
+		return "You lack the necessary minerals"
+	else:
+		for x in CI:
+			Inventory.remove(x)
+		return "You have sucessfuly crafted a Miners Pick"
+		Inventory.append("Miners Pick")
+		CI.clear()
 #CraftAdventurerscrown()
 #CraftMagesrobe()
 #CraftWarriorshelm()
+#CraftAlchemistsbeaker()
+#CraftMinerspick()
 
 
