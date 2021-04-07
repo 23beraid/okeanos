@@ -73,17 +73,17 @@ def display_items():
     print(txt)
     
 def main_screen():
-    a = input("This is the marketplace main screen.\n\nTo see items and prices, type 'inventory'. To purchase an item from the market, type 'buy'. To trade an item to the market, type 'sell'. To leave the market, type 'exit'. Also, to cancel any command at any time, type 'cancel'.\n\nType here: ")
-    if a.lower()=="inventory":
+    #a = input("This is the marketplace main screen.\n\nTo see items and prices, type 'o-inventory'. To purchase an item from the market, type 'o-buy'. To trade an item to the market, type 'o-sell'. To leave the market, type 'o-exit'. Also, to cancel any command at any time, type 'cancel'.\n\nType here: ")
+    if a.lower()=="o-inventory":
         display_items()
         main_screen()
-    elif a.lower()=="buy":
+    elif a.lower()=="o-buy":
         buy_item()
         main_screen()
-    elif a.lower()=="sell":
+    elif a.lower()=="o-sell":
         sell_item()
         main_screen()
-    elif a.lower()=="exit":
+    elif a.lower()=="o-exit":
         pass
     else:
         print("Not a valid command. Try again.")
