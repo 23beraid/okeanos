@@ -3,14 +3,14 @@
 #CraftWarriorshelm: 1 Amethyst, 1 Emerald, 1 Ruby
 #Alchemistsbeaker: 1 Topaz, 1 Aquamarine, 1 Diamond
 #Minerspick: 1 Diamond, 1 Emerald, 1 Ruby
-Inventory=db['inv'+str(message.author.id)]
 UI=[]
 CI=[]
+Inventory=db['inv'+str(message.author.id)]
 def UniqueGen(UI):
 	for x in Inventory:
 		if x not in UI:
 			UI.append(x)
-def CraftAdventurerscrown(Inventory):
+def CraftAdventurerscrown(Inventory, UI, CI):
 	UniqueGen(UI)
 	if "Ruby" in Inventory:
 		CI.append("Ruby")
@@ -30,7 +30,7 @@ def CraftAdventurerscrown(Inventory):
 			CI.clear()
 	else:
 		return "You lack a Ruby"
-def CraftMagesrobe(Inventory):
+def CraftMagesrobe(Inventory, UI, CI):
 	UniqueGen(UI)
 	if "Emerald" in Inventory:
 		CI.append("Emerald")
@@ -50,7 +50,7 @@ def CraftMagesrobe(Inventory):
 			CI.clear()
 	else:
 		return "You lack an Emerald"
-def CraftWarriorshelm(Inventory):
+def CraftWarriorshelm(Inventory, UI, CI):
 	UniqueGen(UI)
 	if "Amethyst" in Inventory:
 		CI.append("Amethyst")
@@ -70,7 +70,7 @@ def CraftWarriorshelm(Inventory):
 			CI.clear()
 	else:
 		return "You lack an Amethyst"
-def CraftAlchemistsbeaker(Inventory):
+def CraftAlchemistsbeaker(Inventory, UI, CI):
 	UniqueGen(UI)
 	for x in UI:
 		if x=="Topaz":
@@ -87,7 +87,7 @@ def CraftAlchemistsbeaker(Inventory):
 		return "You have sucessfuly crafted an Alchemists Beaker"
 		Inventory.append("Alchemists Beaker")
 		CI.clear()
-def CraftMinerspick(Inventory):
+def CraftMinerspick(Inventory, UI, CI):
 	UniqueGen(UI)
 	for x in UI:
 		if x=="Diamond":
@@ -104,8 +104,10 @@ def CraftMinerspick(Inventory):
 		return "You have sucessfuly crafted a Miners Pick"
 		Inventory.append("Miners Pick")
 		CI.clear()
-#CraftAdventurerscrown(Inventory)
-#CraftMagesrobe(Inventory)
-#CraftWarriorshelm(Inventory)
-#CraftAlchemistsbeaker(Inventory)
-#CraftMinerspick(Inventory)
+#CraftAdventurerscrown(Inventory, UI, CI)
+#CraftMagesrobe(Inventory, UI, CI)
+#CraftWarriorshelm(Inventory, UI, CI)
+#CraftAlchemistsbeaker(Inventory, UI, CI)
+#CraftMinerspick(Inventory, UI, CI)
+
+
