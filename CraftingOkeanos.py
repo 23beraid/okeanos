@@ -3,15 +3,17 @@
 #CraftWarriorshelm: 1 Amethyst, 1 Emerald, 1 Ruby
 #Alchemistsbeaker: 1 Topaz, 1 Aquamarine, 1 Diamond
 #Minerspick: 1 Diamond, 1 Emerald, 1 Ruby
-UI=[]
-CI=[]
-Inventory=db['inv'+str(message.author.id)]
-def UniqueGen(UI):
+#Inventory=["Ruby", "Emerald", "Aquamarine", "Topaz", "Diamond", "Amethyst"]
+#UI=[]
+#CI=[]
+#Inventory=db['inv'+str(message.author.id)]
+
+def UniqueGen(UI, Inventory):
 	for x in Inventory:
 		if x not in UI:
 			UI.append(x)
 def CraftAdventurerscrown(Inventory, UI, CI):
-	UniqueGen(UI)
+	UniqueGen(UI, Inventory)
 	if "Ruby" in Inventory:
 		CI.append("Ruby")
 		i=0
@@ -31,7 +33,7 @@ def CraftAdventurerscrown(Inventory, UI, CI):
 	else:
 		return "You lack a Ruby"
 def CraftMagesrobe(Inventory, UI, CI):
-	UniqueGen(UI)
+	UniqueGen(UI, Inventory)
 	if "Emerald" in Inventory:
 		CI.append("Emerald")
 		i=0
@@ -51,7 +53,7 @@ def CraftMagesrobe(Inventory, UI, CI):
 	else:
 		return "You lack an Emerald"
 def CraftWarriorshelm(Inventory, UI, CI):
-	UniqueGen(UI)
+	UniqueGen(UI, Inventory)
 	if "Amethyst" in Inventory:
 		CI.append("Amethyst")
 		i=0
@@ -71,7 +73,7 @@ def CraftWarriorshelm(Inventory, UI, CI):
 	else:
 		return "You lack an Amethyst"
 def CraftAlchemistsbeaker(Inventory, UI, CI):
-	UniqueGen(UI)
+	UniqueGen(UI, Inventory)
 	for x in UI:
 		if x=="Topaz":
 			CI.append(x)
@@ -88,7 +90,7 @@ def CraftAlchemistsbeaker(Inventory, UI, CI):
 		Inventory.append("Alchemists Beaker")
 		CI.clear()
 def CraftMinerspick(Inventory, UI, CI):
-	UniqueGen(UI)
+	UniqueGen(UI, Inventory)
 	for x in UI:
 		if x=="Diamond":
 			CI.append(x)
@@ -104,10 +106,10 @@ def CraftMinerspick(Inventory, UI, CI):
 		return "You have sucessfuly crafted a Miners Pick"
 		Inventory.append("Miners Pick")
 		CI.clear()
-#CraftAdventurerscrown(Inventory, UI, CI)
-#CraftMagesrobe(Inventory, UI, CI)
-#CraftWarriorshelm(Inventory, UI, CI)
-#CraftAlchemistsbeaker(Inventory, UI, CI)
-#CraftMinerspick(Inventory, UI, CI)
+#print(CraftAdventurerscrown(Inventory, [], []))
+#print(CraftMagesrobe(Inventory, [], []))
+#CraftWarriorshelm(Inventory, [], [])
+#CraftAlchemistsbeaker(Inventory, [], [])
+#CraftMinerspick(Inventory, [], [])
 
 
