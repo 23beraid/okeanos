@@ -2,7 +2,7 @@
 
 The game concept file was a place I wrote original ideas. It is not an accurate representation of how the game works.
 
-Okeanos text based game you can play using Windows PowerShell (just kidding, you play it using Discord). We are currently hosting the Discord bot for your convenience. To check the status of the bot visit https://stats.uptimerobot.com/JWmO2u8wKY or https://okeanos.aidanberard.repl.co. 
+Okeanos is a text based game you can play using Windows PowerShell (just kidding, you play it using Discord). We are currently hosting the Discord bot for your convenience. To check the status of the bot visit https://stats.uptimerobot.com/JWmO2u8wKY or https://okeanos.aidanberard.repl.co. 
 
 We recommend using the official server here https://discord.gg/nrXBn9mrcHand and playing on a PC, Mac, or Linux system.
 
