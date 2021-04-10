@@ -17,11 +17,15 @@ def combineElements(user, combination):
     needed = [combination + " Rune", combination + " Scroll", combination + " Scepter", combination + " Amulet"]
     combo = combination + " Combo"
     inventory=db['inv'+str(user.id)]
+    museum=db['museum'+str(user.id)]
     if duplicates(inventory, needed) == True:
         for x in range(0, len(needed)):
             inventory.remove(needed[x])
-        inventory.append(combo)
+        museum.append(combo)
+        for x in range(0, 4):
+            inventory.append('Gold')
         db['inv'+str(user.id)]=inventory
+        db['museum'+str(user.id)]=museum
         return "Successful Combination"
     else:
         return "You don't have the right items!"
@@ -30,11 +34,17 @@ def combineItems(user, combination):
     needed = ["Air " + combination, "Earth " + combination, "Fire " + combination, "Water " + combination]
     combo = combination + " Combo"
     inventory=db['inv'+str(user.id)]
+    museum=db['museum'+str(user.id)]
+    
     if duplicates(inventory, needed) == True:
         for x in range(0, len(needed)):
             inventory.remove(needed[x])
-        inventory.append(combo)
+        museum.append(combo)
+        for x in range (0, 4):
+            inventory.append('Gold')
         db['inv'+str(user.id)]=inventory
+        db['museum'+str(user.id)]=museum
+
         return "Successful Combination"
         
     else:
