@@ -67,7 +67,7 @@ def CraftWarriorshelm(Inventory, UI, CI):
 		else:
 			for x in CI:
 				Inventory.remove(x)
-			return "You have sucessfuly crafted a Mages robe"
+			return "You have sucessfuly crafted a Warriors helm"
 			Inventory.append("Warriors helm")
 			CI.clear()
 	else:
