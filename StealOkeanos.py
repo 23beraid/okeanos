@@ -1,5 +1,3 @@
-#Inventory=["Ruby", "Emerald", "Aquamarine", "Mages Robe"]
-#Victiminv=["Ruby", "Emerald", "Aquamarine", "Mages Robe"]
 Victiminv=db['inv'str(userid)]
 Inventory=db['inv'+str(message.author.id)]
 def StealfromVictim(Victiminv,Inventory,userid):
