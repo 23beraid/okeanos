@@ -11,3 +11,5 @@ https://discord.com/oauth2/authorize?client_id=828340126782193684&scope=bot&perm
 
 You are also welcome to host the bot yourself.
 
+Anyway, once you're ready to play start by typing o-help in a text channel. Have fun.
+
