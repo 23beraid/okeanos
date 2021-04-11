@@ -3,7 +3,7 @@
 The discord-based adventure game Okeanos enables players to collaborate with each other to explore the world of buying, selling, stealing, and crafting. One of our main inspirations while creating this game was the theme of discovery. As players play the game, they discover new ways to acquire points by adventuring, stealing, and crafting, allowing them to show their unique ingenuity to their teammates and opponents. We decided to use discord as our game engine for multiplayer capability and the opportunity to use it on any device. Using the discord bot allows players to collaborate seamlessly by going on artifact and mineral collecting adventures or enabling them to embark on an adventure by themself. While Okeanos is a collaborative game, it is indeed a race to conquer the leaderboard as well. By joining either the house of bravery, brilliance, or balance, you are committing to yourself and your team to adventure out, accumulate rewards, and achieve points. Good luck adventuring, and have fun!
 
 
-NOTE: The game concept file was a place I wrote original ideas. It is not an accurate representation of how the game works. Also, we have alot of 
+NOTE: The game concept file was a place I wrote original ideas. It is not an accurate representation of how the game works. 
 
 Okeanos is a text based game you can play using Windows PowerShell (just kidding, you play it using Discord). We are currently hosting the Discord bot for your convenience. To check the status of the bot visit https://stats.uptimerobot.com/JWmO2u8wKY or https://okeanos.aidanberard.repl.co. 
 
