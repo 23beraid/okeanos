@@ -1,6 +1,6 @@
 # okeanos
 
-The game concept file was a place I wrote original ideas. It is not an accurate representation of how the game works.
+NOTE: The game concept file was a place I wrote original ideas. It is not an accurate representation of how the game works. 
 
 Okeanos is a text based game you can play using Windows PowerShell (just kidding, you play it using Discord). We are currently hosting the Discord bot for your convenience. To check the status of the bot visit https://stats.uptimerobot.com/JWmO2u8wKY or https://okeanos.aidanberard.repl.co. 
 
@@ -10,5 +10,5 @@ You can also invite the bot to your own server https://discord.com/oauth2/author
 
 You are welcome to host the bot yourself.
 
-Anyway, once you're ready to play start by typing o-help in a text channel. Have fun.
+Anyway, once you're ready to play start by typing o-help in a text channel. When playing the game, the bot might respond to certain commands through DM to prevent clogging up the channel. Have fun.
 
