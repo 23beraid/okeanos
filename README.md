@@ -11,5 +11,6 @@ You can invite the bot to your own server https://discord.com/oauth2/authorize?c
 
 You are welcome to host the bot yourself.
 
-Anyway, once you're ready to play start by typing o-help in a text channel. When playing the game, the bot might respond to certain commands through DM to prevent clogging up the channel. Please don't abuse the bot by spamming, and have fun.
+Anyway, once you're ready to play start by typing o-help in a text channel. Remeber to join a house before completing other game actions. When playing the game, the bot might respond to certain commands through DM to prevent clogging up the channel. It also might delete certain command invocations so other users don't know what trickery you're up to. Please don't abuse the bot by spamming, and have fun.
 
+Our repo is kind of a mess, but for your convenience I have included all the stuff you actually need to look at in the okeanos.zip file.
