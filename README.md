@@ -7,7 +7,7 @@ NOTE: The game concept file was a place I wrote original ideas. It is not an acc
 
 Okeanos is a text based game you can play using Windows PowerShell (just kidding, you play it using Discord). We are currently hosting the Discord bot for your convenience. To check the status of the bot visit https://stats.uptimerobot.com/JWmO2u8wKY or https://okeanos.aidanberard.repl.co. 
 
-You can invite the bot to your own server https://discord.com/oauth2/authorize?client_id=828340126782193684&scope=bot&permissions=8 or join the official server here https://discord.gg/nrXBn9mrcHand. This game uses custom emojis which you can add to your server by downloading free from https://hawken-my.sharepoint.com/:f:/g/personal/23beraid_hawken_edu/Es6U9qW4sxNNo_Hna1vA2uYBc-ly3NHwlL3yO4MRGtX5yA?e=9EgFuj. The game will be able to use these emojis regardless of whether they're downloaded or not (hypothetically) but if you want to use them yourself you must download. 
+You can invite the bot to your own server https://discord.com/oauth2/authorize?client_id=828340126782193684&scope=bot&permissions=8 or join the official server here https://discord.gg/nrXBn9mrcH. This game uses custom emojis which you can add to your server by downloading free from https://hawken-my.sharepoint.com/:f:/g/personal/23beraid_hawken_edu/Es6U9qW4sxNNo_Hna1vA2uYBc-ly3NHwlL3yO4MRGtX5yA?e=9EgFuj. The game will be able to use these emojis regardless of whether they're downloaded or not (hypothetically) but if you want to use them yourself you must download. 
 
 You are welcome to host the bot yourself.
 
