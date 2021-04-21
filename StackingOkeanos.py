@@ -8,6 +8,7 @@ def UniqueGen(UI, Inventory):
 			UI.append(x)
 def Convert2Dct(SI):
     SI_dct = {SI[i]: SI[i + 1] for i in range(0, len(SI), 2)}
+	return "SI_dct"
 def StackInventory(UniqueGen,UI,Inventory):
 	UniqueGen(UI, Inventory)
 	for x in UI:
