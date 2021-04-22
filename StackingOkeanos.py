@@ -7,8 +7,8 @@ def UniqueGen(UI, Inventory):
 		if x not in UI:
 			UI.append(x)
 def Convert2Dct(SI):
-    	SI_dct = {SI[i]: SI[i + 1] for i in range(0, len(SI), 2)}
-	return SI_dct
+  SI_dct = {SI[i]: SI[i + 1] for i in range(0, len(SI), 2)}
+  return SI_dct
 def StackInventory(UniqueGen,Inventory):
 	UI=[]
 	SI=[]
