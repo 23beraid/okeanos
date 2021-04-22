@@ -16,4 +16,4 @@ def StackInventory(UniqueGen,UI,Inventory):
 		SI.append(str(Inventory.count(x)))
 	Convert2Dct(SI)
 
-StackInventory(UniqueGen,UI,Inventory)
+return StackInventory(UniqueGen,UI,Inventory)
