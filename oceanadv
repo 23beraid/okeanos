@@ -1,0 +1,14 @@
+inventory = ["abb","hello","chicken","abb", "topaz", "oranges", "yellow","chicken","blue"]
+allitems = ["abb","hello","chicken", "topaz", "oranges", "yellow","blue","purple","diamond"]
+for i in allitems:
+	print(i, inventory.count(i))
+
+#faster
+from collections import Counter
+counts = Counter(inventory)
+counts.setdefault(0)
+for i in allitems:
+	count = counts.get(i)
+	if count ==None:
+		count = 0
+	print(i, count)
